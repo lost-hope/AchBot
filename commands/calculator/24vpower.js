@@ -76,6 +76,6 @@ module.exports = {
                 { name: "Credits", value: "Data measured by Quindor. \nhttps://quinled.info/2020/03/12/digital-led-power-usage/" }
             );
 
-        await interaction.reply({ embeds: [exampleEmbed], ephemeral: hidden });
+        await interaction.reply({ embeds: [exampleEmbed] });
     },
 };
